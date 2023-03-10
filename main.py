@@ -33,7 +33,6 @@ def generate_response(message):
         if len(full_response) > 1500:
             full_response = full_response[:1500]
 
-
         bot.reply_to(message, full_response)
 
     except Exception as e:
